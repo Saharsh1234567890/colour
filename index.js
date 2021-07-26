@@ -4,7 +4,7 @@ function color(col) {
     //copyText.setSelectionRange(0, 99999)
    // document.execCommand("copy",false,col);
     setClipboard(col);
-    alert("You have copied the color " + col);
+    alert("You have copied " + col + " to your clipboard.");
 }
 
 function setClipboard(text) {
