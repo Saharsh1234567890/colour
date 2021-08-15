@@ -1,6 +1,6 @@
 function color(col) {
     setClipboard(col);
-    alert("You have copied the colour " + col + "to your clipboard");
+    alert("You have copied the colour " + col + " to your clipboard");
 }
 
 function setClipboard(text) {
