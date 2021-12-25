@@ -115,7 +115,7 @@ function printCard(col, colCode) {
   var printingCard = "This is a card!!!";
   printingCard =
     `
-        <div class="card mx-2 mt-5" onclick="\color('` +
+        <div class="card mx-2 mt-5 col-2" onclick="\color('` +
     col +
     `')\" style="width: 18rem;">
         <div class="card-img-top ` +
